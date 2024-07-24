@@ -1,0 +1,96 @@
+
+        html {
+            font-family: Helvetica, Arial, sans-serif; /* Adicionei Arial e sans-serif como alternativas */
+            background-color: #d2caca;
+        }
+        .container {
+            max-width: 1100px;
+            background-color: #fff;
+            margin: 50px auto;
+            padding: 20px 50px;
+            border-radius: 8px; /* Adicionei bordas arredondadas para um visual moderno */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra para dar profundidade */
+        }
+        .bold {
+            font-weight: bold;
+        }
+        /* header */
+        .header {
+            text-align: center;
+            margin-bottom: 30px; /* Adicionei um espaço entre o cabeçalho e o conteúdo */
+        }
+        .main-title {
+            font-size: 40px;
+            margin: 0; /* Removeu o espaço superior e inferior padrão do título */
+        }
+        .main-paragraph {
+            font-style: italic;
+            margin: 5px 0 20px; /* Espaçamento mais consistente */
+        }
+        /* imagem destaque */
+        .featured-image {
+            text-align: center;
+            margin-top: 30px;
+        }
+        /* biografia */
+        .biography-container {
+            padding: 25px 0;
+            margin: 25px 0;
+            border-top: 1px dashed #ddd;
+            border-bottom: 1px dashed #ddd;
+        }
+        /* quotes */
+        .quotes-container {
+            background-color: #eee; /* Um tom mais claro para melhor contraste */
+            padding: 30px;
+            margin: 25px 0; /* Adicionei margem para separação do conteúdo */
+            border-radius: 8px; /* Bordas arredondadas */
+        }
+        .quotes-container blockquote {
+            font-weight: bold;
+            font-size: 30px;
+            margin: 0;
+            line-height: 1.4; /* Espaçamento entre linhas */
+        }
+        .quotes-container p {
+            font-style: italic;
+            text-align: right; /* Texto alinhado à direita para dar estilo */
+            margin-top: 10px; /* Espaço entre o blockquote e o autor */
+        }
+        /* curiosidades */
+        .curiosities-container {
+            padding: 25px 0;
+            margin: 25px 0;
+            border-top: 1px dashed #ddd;
+            border-bottom: 1px dashed #ddd;
+        }
+        .curiosities-container ul {
+            list-style-type: none; /* Removeu as marcas de lista padrão */
+            padding: 0;
+        }
+        .curiosities-container li {
+            margin-bottom: 15px; /* Espaço entre itens de lista */
+        }
+        /* imagem adicional */
+        .img-Ad {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .img-bold {
+            font-weight: bold;
+            text-align: center;
+        }
+        /* mais informações */
+        .moreinfo-container {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .moreinfo-container a {
+            color: #007BFF; /* Azul padrão para links */
+            text-decoration: none; /* Remove sublinhado */
+            font-weight: bold;
+        }
+        .moreinfo-container a:hover {
+            text-decoration: underline; /* Sublinhado ao passar o mouse */
+        }
+    
